@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <link rel = "stylesheet" type="text/css"  href="Style.css" /> 
+       <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+       <script src = "script.js"></script>
+
+    </head>
+
+    <body>
+
+        <div id="head-bar">
+            <nav>
+                <ul>
+                 <strong>
+                 <a href = "projects.html"><li class = "button">Projects</li></a>
+                 <a href = "homepage.html"><li class = "button">Homepage</li></a> </strong>
+                </ul>
+             </nav> 
+
+            <a href = "homepage.html"><img src = "Images/headerLogo.png" 
+             href= "homepage.html" id = "header-logo"></a>
+       
+        </div>
+
+        <h1 class = "main-header">We'd love to hear your ideas.</h1>
+        <h2>Please fill in the form below if you have a proposal for us</h2>
+        <div id = "contact-us">
+        <form action = "" method = "" onsubmit="return confirmBox()">
+            <label for = "enter-name">Full Name</label>
+            <input type = "text" id = "enter-name" name = "full-name" placeholder = "Enter your name..."   required>
+            <label for = "enter-email">Email</label>
+            <input type = "text" id = "enter-email" name = "email" placeholder = "Enter your Email..." autocomplete = "off" required>
+            <label for = "confirm-email">Confirm Email</label>
+            <input type = "text" id = "confirm-email" name = "confirm-email" placeholder = "Re-enter your Email..."  autocomplete = "off" required>
+            <label for = "enter-number">Phone Number</label>
+            <input type = "text" id = "enter-number" name = "phone-no" placeholder = "Enter your phone number..." autocomplete = "off"  required>
+            <label for = "enter-proposal">Proposal</label>
+            <textarea  id = "enter-proposal" name = "proposal" placeholder = "Enter your message..." rows="4" required></textarea>
+            <label for = "start-date">Start Date:</label>
+            <label for = "end-date">End Date:</label>
+            <br>
+            <input type = "date" id = "start-date" name = "start-date" required>
+            <input type = "date" id = "end-date" name = "end-date" required>
+            <br>
+            <label>What is your preferred method of communication?</label><br>
+            <input type = "radio" id = "sms-check" name = "preferrence" required>
+            <label for = "sms-check">SMS</label>
+            <input type = "radio" id = "email-check" value = "E-mail" name = "preferrence" required>
+            <label for = "email-check">Email</label><br>
+            <input type = "submit" value = "SUBMIT" > 
+
+
+        </form>
+        </div>
+
+    </body>
+
+    <footer>
+        
+        <p class = "footer-bold">You can find Norware on these websites: </p>
+        <a href = "https://twitter.com/Norware_Tech" target = "_blank"><img src = "Images/twitter-logo.png"></a>
+        <a href = "https://github.com/NorwareTech" target = "_blank"><img src = "Images/github-logo.png"></a>
+        <a href = "https://www.linkedin.com/in/noreware-tech-a92463268/" target = "_blank">
+            <img src = "Images/linkedin-logo.png"></a>
+
+         <p class = footer-bold id = "my-info">Page created by:<br>
+            Noor Ahmed - SUN: 220032003  <br>
+            220032003@aston.ac.uk
+         </p>
+    
+</footer>
+
+</html>
